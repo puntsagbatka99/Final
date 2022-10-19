@@ -1,0 +1,26 @@
+footer{
+    background-color: #063255;
+    color: white;
+    height: 463px;
+    display: flex;
+    align-content: space-around;
+
+}
+.footerUp{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h1, a, div p{
+    color: white;
+}
+
+.footerDown {
+    display: flex;
+    justify-content: space-between;
+}
+.terms{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
