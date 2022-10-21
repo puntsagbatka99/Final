@@ -1,23 +1,92 @@
 footer{
     background-color: #063255;
     color: white;
+    width: 100%;
     height: 463px;
     display: flex;
     align-content: space-around;
 
 }
+footer p, a {
+    color: white;
+}
 .footerUp{
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
-
-footer h1, a, div p{
+#footerUp-1{
+    width: 30%;
+}
+#footerUp-2{
+    width: 20%;
+}
+#footerUp-2 li{
+    height: 45px;
+}
+#footerUp-2 ul{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+#footerUp-2 a{
     color: white;
+}
+#footerUp-3{
+    width: 20%;
+}
+#footerUp-3 p{
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+#footerUp-4{
+    width: 30%;
+}
+footer h1{
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+#buttonType{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 16px;
+    color: #9C9C9C;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+#buttonSub {
+    width: 40%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #F58A07;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footerDown {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.footerDown p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
 }
 .terms{
     width: 25%;

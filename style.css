@@ -22,8 +22,8 @@ section {
 /* ********** section 1 ********** */
 #section1 {
     background-color: #DCEAF5;
-    height: 703px;
     margin-top: 10px;
+    height: 645px;
     display: flex;
     justify-content: space-between;
 }
@@ -34,7 +34,6 @@ section {
 }
 .section1left {
     width: 50%;
-    height: 439px;
 }
 .section1left h2 {
     font-size: 64px;
@@ -54,7 +53,6 @@ section {
 }
 .section1right {
     width: 50%;
-    height: 645px;
 }
 .see {
     width: 55%;
@@ -85,6 +83,9 @@ section {
     justify-content: space-between;
 }
 /* ********** section 2 ********** */
+#secondsection{
+    margin-bottom: 70px;
+}
 #secondsection h2, p{
     width: 60%;
 }
@@ -125,28 +126,31 @@ section {
 /* ********** section 3 ********** */
 #section3{
     background-color: #DCEAF5;
-    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 #head{
      display: flex;
      justify-content: space-between;
-     align-items: center;
-}
+    }
 #head h2{
     width: 49%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
+    margin-top: 0;
 }
 #head p{
     width: 49%;
     color: #1D3444;
+    margin-top: 11px;
 }
 #bottom{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
 #bottom div{
     box-sizing: border-box;
@@ -170,8 +174,11 @@ section {
 /* ********** section 4 ********** */
 #section4 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: space-around;
+}
+#section4left{
+    height: 650px;
 }
 #section4 h2{
     color: #0D1317;
@@ -188,10 +195,11 @@ section {
     justify-content: space-between;
 }
 #awards h3 {
-    color: #F58A07;
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
+    color: #F58A07;
 }
 #awards h4 {
     font-family: 'Poppins';
@@ -213,13 +221,14 @@ section {
 #section5 {
     background-color: #DCEAF5;
     width: 100%;
-    height: 682px;
+    height: 750px;
     padding: 50px;
+    border-radius: 20px;
 }
 #lefttop{
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .business {
@@ -262,6 +271,7 @@ section {
     width: 100%;
 }
 
+
 /* ********** section 6 ********** */
 #section6 {
     display: flex;
@@ -292,4 +302,108 @@ section {
 }
 #section6right a{
     text-decoration: none;
+}
+
+/* ********** section 7 ********** */
+
+.section7{
+    display: flex;
+}
+#section7left {
+    width: 49%;
+}
+#section7left h2{
+    font-size: 48px;
+    color: #0D1317;
+}
+#section7left p{
+    width: 90%;
+}
+#section7bottom{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#section7bottom h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #063255;
+    margin: 0;
+}
+#section7bottom h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #F58A07;
+    margin: 0%;
+}
+#section7right {
+    display: flex;
+    position: relative;
+}
+#video{
+    display: flex;
+    align-items: center;
+    width: 170px;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+#buttonPlay {
+    background-color: rgb(255, 255, 255);
+    height: 51px;
+    width: 51px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section7right p {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* ********** section 8 ********** */
+#section8 {
+    background-color: #DCEAF5;
+    height: 819px;
+    display: flex;
+    align-items: center;
+}
+#section8bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#section8bottom img{
+    border-radius: 20px 20px 0px 0px;
+}
+#section8bottom h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    width: 95%;
+    margin: 0;
+}
+.section8bottom{
+    border-radius: 20px;
+    background-color: white;
+    padding: 0px;
+    width: 399px;
+    height: 550px;
+}
+.section8text{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
 }
