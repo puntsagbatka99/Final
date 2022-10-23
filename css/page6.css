@@ -1,0 +1,95 @@
+/********** section 1 **********/
+.section-1 h2{
+    font-size: 64px;
+    color: #1d3444;
+}
+.section1bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.section1bottom h3{
+    font-weight: 500;
+    font-size: 24px;
+    color: #0d1317;
+}
+.section1bottom p{
+    margin: 0;
+}
+.section1left{
+    width: 50%;
+}
+.section1right {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+    width: 50%;
+}
+
+/********** section 2 **********/
+.section-2 {
+    background-color: rgba(193, 228, 255, 0.3);
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    padding: 40px;
+}
+.section2left{
+    width: 30%;
+}
+.section2left h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+.section2left h2:first-child{
+    color: #F58A07;
+}
+.section2right{
+    width: 100%;
+}
+/********** section 3 **********/
+#section-3{
+    margin-bottom: 100px;
+}
+.section-3 h2{
+    font-size: 48px;
+    color: #0d1317;
+}
+.section3top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section3items {
+    width: 49%;
+    height: 50px;
+    border-radius: 27px;
+    font-size: 16px;
+    color: #9C9C9C;
+    background-color: rgba(210, 218, 237, 0.17);
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.section3bottom{
+    width: 100%;
+    height: 215px;
+    border-radius: 27px;
+    font-size: 16px;
+    color: #9C9C9C;
+    background-color: rgba(210, 218, 237, 0.17);
+    display: flex;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.buttonSubmit {
+    width: 119px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: #F58A07;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

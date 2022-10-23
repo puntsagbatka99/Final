@@ -5,6 +5,7 @@ footer{
     height: 463px;
     display: flex;
     align-content: space-around;
+    position: relative;
 
 }
 footer p, a {
@@ -17,6 +18,10 @@ footer p, a {
 }
 #footerUp-1{
     width: 30%;
+}
+#footerUp-1 h2{
+    color: white;
+    font-size: 27px;
 }
 #footerUp-2{
     width: 20%;
@@ -92,4 +97,25 @@ footer h1{
     width: 25%;
     display: flex;
     justify-content: space-between;
+}
+.footerColor-1{
+    width: 53px;
+    height: 144px;
+    background-color: #F58A07;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0px 20px 0px 0px;
+}
+.footerColor-2{
+    width: 53px;
+    height: 287px;
+    background-color: #F58A07;
+    position: absolute;
+    top: 38px;
+    right: 0;
+    border-radius: 20px 0px 0px 20px;
+}
+ul{
+    list-style: none;
 }

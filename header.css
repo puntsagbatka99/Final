@@ -1,6 +1,7 @@
 header {
     width: 100%;
     margin: auto;
+    margin-top: 10px;
     max-width: 1280px;
     height: 52px;
     display: flex;
@@ -43,4 +44,7 @@ header a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+ul{
+    list-style: none;
 }

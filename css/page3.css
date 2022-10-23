@@ -1,0 +1,118 @@
+/* ********** section 1 ********** */
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.section1left{
+    width: 49%;
+}
+.section1left h2{
+    font-size: 64px;
+    color: #1D3444;
+}
+.section1left p{
+    width: 90%;
+}
+.buttonView{
+    color: white;
+    background-color:#F58A07;
+    width: 180px;
+    height: 54px;
+    border-radius: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.section1right{
+    background-image: url(/images/imagesPage3/Imagepage3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 49%;
+    height: 650px;
+}
+.section1color{
+    width: 180px;
+    height: 650px;
+    background-color: #F58A07;
+    border-radius: 20px 0px 0px 20px;
+    mix-blend-mode: multiply;
+}
+/* ********** section 2 ********** */
+.section2bottom{
+    width: 100%;
+}
+.section2bottom a{
+    color: #F58A07;
+}
+.topLine{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.bottomLine{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 840px;
+}
+.bottomColor{
+    width: 400px;
+    background-color: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+}
+.bottomLineColor{
+    width: 400px;
+    background-color: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+}
+/* ********** section 8 ********** */
+#section8 {
+    background-color: #DCEAF5;
+    height: 819px;
+    display: flex;
+    align-items: center;
+}
+#section8 p{
+    width: 90%;
+}
+.learnmore{
+    text-decoration: none;
+    color: #F58A07;
+}
+.learnmore::after{
+    content: "\2192";
+}
+#section8bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#section8bottom img{
+    border-radius: 20px 20px 0px 0px;
+}
+#section8bottom h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    width: 95%;
+    margin: 0;
+}
+.section8bottom{
+    border-radius: 20px;
+    background-color: white;
+    padding: 0px;
+    width: 399px;
+    height: 550px;
+}
+.section8text{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
