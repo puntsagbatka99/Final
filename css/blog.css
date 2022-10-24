@@ -23,8 +23,11 @@
     height: 32px;
 }
 .section1left h2{
+    margin-top: 0;
     font-size: 64px;
     color: #1D3444;
+    line-height: 72px;
+
 }
 .buttonRead a {
     text-decoration: none;
@@ -38,6 +41,9 @@
 }
 .section1right img{
     border-radius: 20px;
+}
+.section1right img:hover{
+    width: calc(100% + 1px);
 }
 /* ********** section 8 ********** */
 .section-8 h2{
@@ -72,6 +78,9 @@
     width: 31%;
     height: 550px;
     margin-bottom: 50px;
+}
+.section8bottom:hover{
+    background-color: #DCEAF5;
 }
 .section8text{
     padding-left: 30px;

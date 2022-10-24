@@ -64,12 +64,15 @@ footer h1{
     height: 50px;
     border-radius: 50px;
     font-size: 16px;
-    color: #9C9C9C;
     background-color: white;
     display: flex;
     align-items: center;
     padding-left: 30px;
     margin-bottom: 15px;
+    border: none;
+}
+input ::placeholder{
+    color: #9C9C9C;
 }
 #buttonSub {
     width: 40%;

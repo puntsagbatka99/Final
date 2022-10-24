@@ -32,6 +32,9 @@ header nav ul{
     display: flex;
     justify-content: space-around;
 }
+header nav a:hover{
+    color: #F58A07;
+}
 header a{
     color: #394149;
 }
@@ -44,6 +47,9 @@ header a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.buttonCall:hover{
+    background-color: #f2e2cf;
 }
 ul{
     list-style: none;
