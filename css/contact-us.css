@@ -57,7 +57,7 @@ input::placeholder{
 .section2right{
     width: 49%;
 }
-.section2right img{
+.section2right iframe{
     border-radius: 20px;
     height: 399px;
 }
