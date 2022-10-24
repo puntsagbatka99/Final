@@ -93,6 +93,9 @@ footer h1{
     font-weight: 400;
     font-size: 16px;
 }
+.footerDown p::before {
+    content: "\00a9";
+}
 .terms{
     width: 25%;
     display: flex;
